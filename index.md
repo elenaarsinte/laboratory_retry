@@ -51,11 +51,8 @@ end
 ```
 
 #### Header 4
- // Note that we are setting `SameSite=None;` in this example because the example
-// needs to work cross-origin.
-// It is more common not to set the `SameSite` attribute, which results in the default,
-// and more secure, value of `SameSite=Lax;`
 ```js
+// Javascript code with syntax highlighting.
 document.cookie = "name=oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe; SameSite=None; Secure";
 
@@ -76,12 +73,7 @@ Copy to Clipboard
 <div>
   <code id="cookies"></code>
 </div>
-end
 ```
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-
 ##### Header 5
 
 1.  This is an ordered list following a header.
