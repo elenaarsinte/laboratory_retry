@@ -65,16 +65,15 @@ function clearOutputCookies() {
   const output = document.getElementById("cookies");
   output.textContent = "";
 }
-Copy to Clipboard
+end
+```
 <button onclick="showCookies()">Show cookies</button>
-
 <button onclick="clearOutputCookies()">Clear</button>
 
 <div>
   <code id="cookies"></code>
 </div>
-end
-```
+
 ##### Header 5
 
 1.  This is an ordered list following a header.
