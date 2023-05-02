@@ -51,8 +51,9 @@ end
 ```
 
 #### Header 4
-```js
+
 // Javascript code with syntax highlighting.
+
 document.cookie = "name=oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe; SameSite=None; Secure";
 
@@ -72,8 +73,7 @@ function clearOutputCookies() {
 <div>
   <code id="cookies"></code>
 </div>
-end
-```
+
 ##### Header 5
 
 1.  This is an ordered list following a header.
